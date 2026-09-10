@@ -10,8 +10,12 @@
 # print( "Number is even" , n % 2 != 0)
 
 
-n = int(input("Enter a number: "))
-print(f" {n} years = {n * 365} days")
+# n = int(input("Enter a number: "))
+# print(f" {n} years = {n * 365} days")
 
+n = int(input("Enter a number: "))
+a = n//60
+b = n%60
+print(f"{n} is {a} hours {b} minutes")
 
 
